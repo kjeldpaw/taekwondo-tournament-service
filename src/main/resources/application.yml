@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: create-drop
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/taekwondo_tournament
+        username: ttapp
+        password: (TPyU82B8Qvi
+        driver-class-name: com.mysql.jdbc.Driver
